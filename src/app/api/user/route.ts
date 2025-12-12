@@ -5,7 +5,7 @@ export async function GET() {
     return NextResponse.json({
         name:"Hasib",
         age:15
-    })
+    });
 }
 
 export async function POST(request:NextRequest) {
@@ -13,6 +13,6 @@ export async function POST(request:NextRequest) {
 
     return NextResponse.json({
         name,age
-    })
+    });
 }
 
