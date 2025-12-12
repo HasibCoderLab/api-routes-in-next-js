@@ -8,7 +8,7 @@ export async function GET() {
     })
 }
 
-async function POST(request:NextRequest) {
+export async function POST(request:NextRequest) {
     let {name, age} = await request.json()
 
     return NextResponse.json({
